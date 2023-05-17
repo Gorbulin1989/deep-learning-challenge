@@ -11,7 +11,7 @@ Using bulleted lists and images to support your answers, address the following q
 What variable(s) are the target(s) for your model?
 ANSWER:
 
-The target variable for the model is y = application_df["IS_SUCCESSFUL"].values, indicating whether a charity organization is successful in receiving funding.
+The target variable for the model is `y = application_df["IS_SUCCESSFUL"].values`, indicating whether a charity organization is successful in receiving funding.
 
 - What variable(s) are the features for your model?
 
