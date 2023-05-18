@@ -11,25 +11,25 @@ Using bulleted lists and images to support your answers, address the following q
 What variable(s) are the target(s) for your model?
 ANSWER:
 
-The target variable for the model is y = application_df["IS_SUCCESSFUL"].values, indicating whether a charity organization is successful in receiving funding.
+The target variable for the model is `y = application_df["IS_SUCCESSFUL"].values,` indicating whether a charity organization is successful in receiving funding.
 
 - What variable(s) are the features for your model?
 
 ANSWER:
 
-All variables except for y = application_df["IS_SUCCESSFUL"].values were used as features for the model.
+All variables except for `y = application_df["IS_SUCCESSFUL"].values` were used as features for the model.
 
 - What variable(s) should be removed from the input data because they are neither targets nor features?
 
 ANSWER:
 
-The columns "EIN" and "NAME" were dropped from the input data because they did not provide significant value as targets or features.
+The columns `"EIN"` and `"NAME"` were dropped from the input data because they did not provide significant value as targets or features.
 Compiling, Training, and Evaluating the Model:
 - How many neurons, layers, and activation functions did you select for your neural network model, and why?
 ANSWER:
 The neural network model used the following architecture:
 
-Number of input features: number_input_features = len(X_test[0])
+Number of input features: `number_input_features = len(X_test[0])`
 
 Neural network layers:
 
